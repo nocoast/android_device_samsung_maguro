@@ -1,6 +1,9 @@
 # Release name
 PRODUCT_RELEASE_NAME := GN-GSM
 
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := pa_xhdpi
+
 # gsm
 $(call inherit-product, vendor/carbon/config/common_gsm.mk)
 
